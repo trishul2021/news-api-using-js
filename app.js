@@ -7,7 +7,7 @@ let biz_news = document.getElementById("biz_news");
 
 
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=ee273065bb82461e8278b34e1c406167`, true);
+  xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=ee273065dfsfw332323c406167`, true);
   xhr.onload = function () {
     if (this.status === 200) {
       let json = JSON.parse(this.responseText);
